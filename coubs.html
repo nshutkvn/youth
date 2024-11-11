@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media UI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <!-- <header class="header">
+          <div class="logo">
+              <img src="path-to-logo" alt="Logo" />
+          </div>
+          <div class="header-icons">
+              <i class="fa fa-search" id="mobile-search-icon"></i>
+              <i class="fa fa-comments" id="dms-icon"></i>
+              <i class="fa fa-video" id="reels-icon"></i>
+              <div class="profile-dropdown">
+                  <img src="media/images/defaults/Default_pfp.svg.png" alt="Profile" class="profile-icon">
+                  <div class="profile-dropdown-menu">
+                      <a href="#">Profile</a>
+                      <a href="#">Logout</a>
+                      <div class="theme-dots">
+                          <div class="dot white"></div>
+                          <div class="dot purple"></div>
+                          <div class="dot dark"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>  -->
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="account">
+                <img src="media/images/defaults/Default_pfp.svg.png" alt="Profile Picture" class="account-dp">
+                <div class="account-info">
+                    <span class="account-name">Username</span>
+                    <span class="account-username">@username</span>
+                </div>
+                <div class="switch-account">
+                    <a href="#">Switch</a>
+                </div>
+            </div>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i> News Feed</a></li>
+                <li><a href="#"><i class="fa fa-compass"></i> Explore</a></li>
+                <li class="active"><a href="#"><i class="fa fa-video"></i> Coubs</a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> Shop</a></li>
+                <li><a href="#"><i class="fa fa-bookmark"></i> Saved</a></li>
+                <li><a href="#"><i class="fa fa-chart-line"></i> Insights</a></li>
+                <li><a href="#"><i class="fa fa-archive"></i> Archive</a></li>
+                <li><a href="#"><i class="fa fa-qrcode"></i> QR Code</a></li>
+                <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                <!-- <li class="logout"><a href="#"><i class="fa fa-sign-out-alt"></i> Logout</a></li> -->
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content coubs">
+            <div class="app__videos">
+                <!-- video starts -->
+                <div class="video">
+                  <video class="video__player" src="media/videos/defaults/video1.mp4"></video>
+          
+                  <!-- sidebar -->
+                  <div class="videoSidebar">
+                    <div class="videoSidebar__button">
+                      <span class="material-icons"> favorite_border </span>
+                      <p>12</p>
+                    </div>
+          
+                    <div class="videoSidebar__button">
+                      <span class="material-icons"> message </span>
+                      <p>23</p>
+                    </div>
+          
+                    <div class="videoSidebar__button">
+                      <span class="material-icons"> share </span>
+                      <p>75</p>
+                    </div>
+                  </div>
+          
+                  <!-- footer -->
+                  <div class="videoFooter">
+                    <div class="videoFooter__text">
+                      <h3>Somanath Goudar</h3>
+                      <p class="videoFooter__description">Best Video Ever</p>
+          
+                      <div class="videoFooter__ticker">
+                        <span class="material-icons videoFooter__icon"> music_note </span>
+                        <marquee>Song name</marquee>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- video ends -->
+          
+                <!-- video starts -->
+                <div class="video">
+                  <video class="video__player" src="media/videos/defaults/video2.mp4"></video>
+          
+                  <!-- sidebar -->
+                  <div class="videoSidebar">
+                    <div class="videoSidebar__button">
+                      <span class="material-icons"> favorite_border </span>
+                      <p>12</p>
+                    </div>
+          
+                    <div class="videoSidebar__button">
+                      <span class="material-icons"> message </span>
+                      <p>23</p>
+                    </div>
+          
+                    <div class="videoSidebar__button">
+                      <span class="material-icons"> share </span>
+                      <p>75</p>
+                    </div>
+                  </div>
+          
+                  <!-- footer -->
+                  <div class="videoFooter">
+                    <div class="videoFooter__text">
+                      <h3>Somanath Goudar</h3>
+                      <p class="videoFooter__description">Best Video Ever</p>
+          
+                      <div class="videoFooter__ticker">
+                        <span class="material-icons videoFooter__icon"> music_note </span>
+                        <marquee>Song name</marquee>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- video ends -->
+              </div>
+        </main>
+    </div>
+    <script src="js/active.js"></script>
+</body>
+</html>
